@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #545454;
+}
+
+
+
+/* Start of Custom Bootstrap */
+.text-primary {
+    color: #2b4b42 !important;
+}
+.btn-primary {
+    background-color: #2b4b42;
+    border-color: #2b4b42;
+}
+.btn-primary:hover {
+    background-color: #508a7a;
+    border-color: #508a7a;
+}
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #0c1512 !important;
+    border-color: #0c1512 !important;
+    box-shadow: none !important;
+}
+
+.btn-secondary {
+    background-color: #cb5b2f;
+    border-color: #cb5b2f;
+}
+.btn-secondary:hover {
+    background-color: #eb6b38;
+    border-color: #eb6b38;
+}
+.btn-secondary:active,
+.btn-secondary:focus {
+    background-color: #3f1d0f !important;
+    border-color: #3f1d0f !important;
+    box-shadow: none !important;
+}
+/* End of Custom Bootstrap */
+
+/* Start of Nav */
+nav {
+    background-color: #f5f5f5;
+}
+
+.navbar-brand {
+    font-family: "Roboto Slab", serif
+}
+
+.surname {
+    color: #2b4b42;
+    font-weight: bold;
+}
+/* End of Nav */
+
+/* Start of Hero */
+#hero {
+    background-image: url(../images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    color: white;
+    flex-direction: column;
+}
+
+.cathy-photo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px; 
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Roboto Slab", serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: 2.5rem;
+}
+
+.box {
+    display: inline-block; 
+    border: 2px solid #545454;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn-glow {
+    box-shadow: 0 0 50px #64ae99;
+}
+
+/* End of Hero */
+
+/* Start of About */
+#about {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.cathy-box {
+    background-color: #FFFFFF;
+    box-shadow: 1px 4px 2px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 50px;
+    z-index: 100;
+}
+.cathy-info-box {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px; 
+    display: block;
+    margin: auto;
+}
+
+.box-name {
+    display: inline-block; 
+    border: 2px solid #545454;
+    padding: 6px 20px 0;
+    border-radius: 8px;
+}
+
+.title {
+    display: inline-block;
+    border-bottom: 3px solid #2b4b42; 
+    padding-bottom: 5px; 
+}
+.title-about {
+    width: 170px;
+}
+.title-profile {
+    width: 120px;
+}
+.title-skills {
+    width: 100px;
+}
+.progress-bar {
+    background-color: #cb5b2f;
+}
+.progress-title {
+    margin-bottom: 10px;
+}
+.title-apart {
+    width: 330px;
+}
+.bi-size {
+    font-size: 50px;
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
+.title-testimonials {
+    width: 210px;
+}
+
+.control {
+    background-color: #2b4b42; 
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+/* End of About */
+
+/* Start of Resume */
+#resume {
+    background-color: #2b4b42;
+}
+.title-resume {
+    display: inline-block;
+    border-bottom: 3px solid #ffffff; 
+    padding-bottom: 5px; 
+    width: 140px;
+}
+.resume-info-box {
+    border-left: 3px solid #cb5b2f; 
+    padding-left: 15px; 
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+/* End of Resume */
+
+/* Start of Contacts */
+.title-contacts {
+    display: inline-block;
+    border-bottom: 3px solid #2b4b42; 
+    padding-bottom: 5px; 
+    width: 140px;
+}
+
+.map-container {
+    position: relative;
+    width: 100%; /* Full width */
+    max-width: 800px; /* Optional: Set a max width */
+    margin: 0 auto; /* Center it */
+    aspect-ratio: 16 / 9; /* Maintain aspect ratio */
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+/* End of Contacts */
+
+/* Start of Footer */
+#footer {
+    background-color: #0d1714;
+    color: white;
+    padding: 20px 0;
+}
+#footer div h2 {
+    font-family: "Roboto Slab", serif;
+}
+/* End of Footer */
